@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.spotify-logo{
+    margin: 0 100px;
+    padding-top: 10px;
+}
+.spotify-logo img{
+    width: 150px;
+}
+.section-one{
+    background-color: rgb(28, 28, 28);
+    height: 900px;
+}
+.container{
+    background-color: black;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.container-text{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.continues{
+    padding-top: 50px;
+    margin: 0 30px;
+}
+.google{
+    display: flex;
+    border: 1px solid grey;
+    width: 300px;
+    margin: 0 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+.google:hover{
+    border: 1px solid white;
+}
+.google p{
+    margin: 0 0px;
+    white-space: nowrap;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.google img{
+    width: 60px;
+    height: 40px;
+   padding-right: 50px;
+    margin-top: 0px;
+    border-radius: 100%;
+}
+.facebook{
+    display: flex;
+    border: 1px solid grey;
+    width: 300px;
+    margin: 0 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+.facebook:hover{
+    border: 1px solid white;
+}
+.facebook p{
+    margin: 0 0px;
+    white-space: nowrap;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.facebook img{
+    width: 40px;
+    height: 25px;
+   padding-right: 50px;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+.apple{
+    display: flex;
+    border: 1px solid grey;
+    width: 300px;
+    margin: 0 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+.apple:hover{
+    border: 1px solid white;
+}
+.apple p{
+    white-space: nowrap;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.apple img{
+    width: 40px;
+    height: 40px;
+   padding-right: 50px;
+    margin-right: 50px;
+    border-radius: 100%;
+}
+.phone{
+    display: flex;
+    border: 1px solid grey;
+    width: 300px;
+    margin: 0 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.phone:hover{
+    border: 1px solid white;
+}
+.phone p{
+    margin: 0 70px;
+    white-space: nowrap;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.form{
+    margin: 0 250px;
+    padding-top: 30px;
+}
+.form label{
+    color: white;
+}
+.email input{
+    margin-top: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: rgb(30, 30, 30);
+    border: none;
+}
+.password{
+    margin-top: 10px;
+}
+.password input{
+    margin-top: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: rgb(30, 30, 30);
+    border: none;
+}
+.remember{
+    display: flex;
+}
+.remember button {
+    background: rgb(1, 174, 1);
+    height: 15px;
+    width: 30px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0 250px;
+    margin-top: 20px;
+}
+
+.remember button span {
+    display: block;
+    background: #000;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: 0.5s, margin-left 0.5s;
+}
+.remember p{
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+}
